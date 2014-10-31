@@ -7,7 +7,7 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
-http.listen(process.env.PORT ? process.env.PORT : 3000);
+http.listen(process.env.PORT || 3000);
 
 app.set('view engine', 'jade');
 
