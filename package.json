@@ -1,0 +1,16 @@
+{
+  "name": "2PersonGame",
+  "version": "1.0.0",
+  "description": "2 person game framework",
+  "main": "Routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.1",
+    "jade": "^1.7.0",
+    "socket.io": "^1.2.0"
+  }
+}
